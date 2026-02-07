@@ -1,6 +1,6 @@
 {
   "name": "@verbadev/react",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "React SDK for Verba Translation Management System",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -32,6 +32,14 @@
   ],
   "author": "",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/verbadev/react-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/verbadev/react-sdk/issues"
+  },
+  "homepage": "https://github.com/verbadev/react-sdk#readme",
   "peerDependencies": {
     "react": ">=18",
     "@verbadev/js": ">=0.2.0"
