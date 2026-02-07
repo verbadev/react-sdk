@@ -1,0 +1,46 @@
+{
+  "name": "@verbadev/react",
+  "version": "0.1.0",
+  "description": "React SDK for Verba Translation Management System",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "verba",
+    "react",
+    "translations",
+    "i18n",
+    "localization",
+    "l10n",
+    "hooks"
+  ],
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=18",
+    "@verbadev/js": ">=0.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "react": "^19.0.0",
+    "@verbadev/js": "file:../js",
+    "tsup": "^8.0.0",
+    "typescript": "^5.0.0"
+  }
+}
